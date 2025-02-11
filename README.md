@@ -1,16 +1,18 @@
 # nextjs-portfolio
 
-This repository contains a modern portfolio website built with [Next.js](https://nextjs.org/) and enhanced by [GitHub Copilot](https://github.com/features/copilot). The site showcases my projects, skills, and professional background.
+This repository contains a modern portfolio website built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/), enhanced by [GitHub Copilot](https://github.com/features/copilot). The site showcases my projects, skills, and professional background.
 
 ## Features
 
-- **Responsive Design:** Optimized for both desktop and mobile devices.
-- **Performance Optimized:** Leveraging Next.js for fast load times.
-- **Modern UI/UX:** Clean, minimal, and intuitive interface.
-- **SEO Friendly:** Built with best practices for search engine optimization.
-- **Interactive Elements:** Smooth animations and transitions.
-- **Contact Form:** Easy way for visitors to reach out.
-- **Portfolio Showcase:** Dedicated section for highlighting projects.
+- **Modern Tech Stack:** Built with Next.js, TypeScript, and Tailwind CSS
+- **Type-Safe Development:** Leveraging TypeScript for better code quality
+- **Responsive Design:** Optimized for both desktop and mobile devices
+- **Performance Optimized:** Leveraging Next.js for fast load times
+- **Modern UI/UX:** Clean, minimal, and intuitive interface with Tailwind CSS
+- **SEO Friendly:** Built with best practices for search engine optimization
+- **Interactive Elements:** Smooth animations and transitions
+- **Contact Form:** Easy way for visitors to reach out
+- **Portfolio Showcase:** Dedicated section for highlighting projects
 
 ## Getting Started
 
@@ -50,6 +52,21 @@ yarn dev
 
 For deployment, consider using services such as [Vercel](https://vercel.com), [Netlify](https://netlify.com), or any other platform that supports Next.js. Refer to their respective documentation for more details.
 
+## Project Structure
+
+```
+├── src/                    # Source directory
+│   ├── app/               # App router files
+│   ├── components/        # React components
+│   ├── styles/           # Styles including Tailwind CSS
+│   └── types/            # TypeScript type definitions
+├── public/               # Static files
+├── next.config.ts        # Next.js configuration
+├── tailwind.config.ts    # Tailwind CSS configuration
+├── tsconfig.json         # TypeScript configuration
+└── package.json         # Project dependencies and scripts
+```
+
 ## Contributing
 
 Contributions are welcome! Please feel free to open an issue or submit a pull request if you have suggestions, improvements, or bug fixes.
@@ -61,5 +78,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 ## Acknowledgements
 
 - [Next.js Documentation](https://nextjs.org/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [GitHub Copilot](https://github.com/features/copilot)
 - [Vercel](https://vercel.com)
